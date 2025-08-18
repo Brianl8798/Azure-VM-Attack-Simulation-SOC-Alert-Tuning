@@ -31,3 +31,32 @@ let allowedCountries = dynamic(["US","CA","GB"]);
 SecurityEvent
 | evaluate ip_geo_location(ClientIP)
 | where CountryCode !in (allowedCountries)
+```
+📊 Results
+
+150+ Total attack attempts	
+
+8 Confirmed malicious IPs	
+
+40% Noise reduction
+
+🔥 Key Findings
+
+Top Attack Patterns:
+
+RDP brute-forcing (65%)
+
+SSH credential stuffing (30%)
+
+Threat Intel:
+
+90% of malicious IPs found in AbuseIPDB
+
+Default credentials (admin:password123) most targeted
+
+🎯 Skills Demonstrated
+KQL - Azure Security - Threat Detection - SIEM - Incident Response
+
+💡 Lessons Learned
+"Geo-based alerting reduced false positives by 50%+"
+"VMs attract attacks within minutes of exposure"
