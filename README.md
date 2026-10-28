@@ -103,7 +103,3 @@ The VM was intentionally left vulnerable in an **isolated lab** for research pur
 ## Credits
 
 - Brian Lam — [GitHub](https://github.com/Brianl8798) · [LinkedIn](https://www.linkedin.com/in/brian-lam-282176172/)
-- Geo-filtering reduces **false positives by 50%+**
-
-- Default credentials are **primary targets**
-
